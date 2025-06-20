@@ -1,0 +1,65 @@
+/* 共通リセット */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.6;
+}
+
+/* 全体背景と最低表示高さを確保 */
+.wrap {
+  padding: 32px 0 64px;
+  min-height: 100vh;
+}
+
+/* コンテンツ全体を中央に寄せ、幅を制限 */
+.content {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+/* プロフィールセクション */
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+/* プロフィール画像 */
+.profile img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+/* 見出しのスタイル */
+h1 {
+  color: white;
+  background: #16dad0;
+  text-align: center;
+  padding: 12px 0;
+  margin-bottom: 20px;
+}
+
+h2 {
+  border-left: solid 5px #0080ff;
+  padding-left: 10px;
+  margin-top: 24px;
+  margin-bottom: 10px;
+}
+
+/* 段落のスタイル */
+p {
+  margin-bottom: 10px;
+}
